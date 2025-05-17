@@ -3,18 +3,13 @@ import { createTheme } from '@mui/material/styles';
 export const theme = createTheme({
   palette: {
     primary: {
-      main: '#f7cad0', // pastel pink
-      light: '#fae0e4',
-      dark: '#ff9aa2',
+      main: '#1976d2',
     },
     secondary: {
-      main: '#b5e5cf', // pastel mint
-      light: '#d8f3dc',
-      dark: '#95d5b2',
+      main: '#dc004e',
     },
     background: {
-      default: '#fff8f8',
-      paper: '#ffffff',
+      default: '#f5f5f5',
     },
     text: {
       primary: '#2d3436',
@@ -57,4 +52,4 @@ export const theme = createTheme({
       },
     },
   },
-}); 
+});
